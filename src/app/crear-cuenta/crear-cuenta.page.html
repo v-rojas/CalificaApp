@@ -1,0 +1,21 @@
+<ion-content>
+  <div class="image-container"></div>
+  <div class="center-buttons">
+    <h2 class="text-center">Crear una cuenta</h2>
+    <ion-item>
+      <ion-input type="text" placeholder="Nombre"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="E-mail"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="password" placeholder="Contraseña"></ion-input>
+      <ion-icon slot="end" name="eye"></ion-icon>
+    </ion-item>
+    <p class="text-center">Al registrarte aceptas los <span>Términos y Condiciones</span></p>
+    <button class="primary-button middle-button" (click)="registrar()">Registrarse</button>
+    <br><br>
+    <p class="text-center">¿Ya tienes una cuenta?</p>
+    <p class="text-center p-registro" (click)="login()">Ingresar</p>
+  </div>
+</ion-content>

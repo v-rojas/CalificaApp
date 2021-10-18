@@ -1,0 +1,56 @@
+.header {
+    background: url(../../assets/img/background_restaurant.jpg) 0 0/100% 100% no-repeat;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.img-header {
+    border-radius: 50%;
+}
+
+h3 {
+    color: white;
+}
+
+.arrow-icon {
+    color: #ffffff;
+    font-size: 7vw;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+ion-item {
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid var(--ion-color-light);
+}
+
+.img-badge-container {
+    position: relative;
+    text-align: center;
+}
+
+.img-item {
+    border-radius: 50%;  
+    object-fit: cover;  
+}
+
+.badge {
+    background: var(--ion-color-success);
+    padding: .5em;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+
+    ion-icon {
+        color: #ffffff;
+        font-size: 7vw;
+    }
+}
+
+h4{
+    margin-bottom: 0;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "ExperienceApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

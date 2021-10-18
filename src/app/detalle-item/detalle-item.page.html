@@ -1,0 +1,40 @@
+<ion-content>
+  <div class="header">
+    <ion-icon class="arrow-icon" name="arrow-back-outline" (click)="regresar()"></ion-icon>
+    <br>
+    <img class="img-header" src="assets/img/restaurant_icon.png" width="100" height="100" alt="icon-item">
+    <h3><strong>Restaurant Petrus</strong></h3>
+    <h4><strong>Av Francisco de Orellana y Alberto Borges, 8876, Guayaquil-Ecuador</strong></h4>
+    <br>
+  </div>
+  <ion-item lines="none">
+    <ion-icon slot="start" name="search-outline"></ion-icon>
+    <ion-input type="text" placeholder="Buscar por nombre"></ion-input>
+    <ion-icon slot="end" name="close-outline"></ion-icon>
+  </ion-item>
+  <br>
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="6">
+        <div class="img-badge-container">
+          <img class="img-item" src="assets/img/waitress1.jpg" width="120" height="120" alt="icon">
+          <div class="rounded-pill badge">
+            <ion-icon slot="icon-only" name="happy"></ion-icon>
+          </div>
+        </div>
+        <h4 class="text-center">Elita Becerra Díaz</h4>
+        <p class="text-center">Dependiente</p>
+      </ion-col>
+      <ion-col size="6">
+        <div class="img-badge-container">
+          <img class="img-item" src="assets/img/waitress2.jpg" width="120" height="120" alt="icon">
+          <div class="rounded-pill badge">
+            <ion-icon slot="icon-only" name="happy"></ion-icon>
+          </div>
+        </div>
+        <h4 class="text-center">Miguel Dantas</h4>
+        <p class="text-center">Dependiente</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

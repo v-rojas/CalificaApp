@@ -1,0 +1,30 @@
+<ion-content>
+  <img src="assets/img/login.png">  
+  <div class="center-buttons">    
+    <button class="primary-button facebook">
+      <ion-row class="ion-align-items-center">
+        <ion-col size="2" class="ion-align-items-center">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </ion-col>
+        <ion-col size="10" class="ion-align-items-center">
+          <p class="text-left">Iniciar con Facebook</p>
+        </ion-col>
+      </ion-row>
+    </button>
+    <button class="primary-button google">
+      <ion-row class="ion-align-items-center">
+        <ion-col size="2" class="ion-align-items-center">
+          <ion-icon src="assets/icon/google.svg"></ion-icon>
+        </ion-col>
+        <ion-col size="10" class="ion-align-items-center">
+          <p class="text-left">Iniciar con Google</p>
+        </ion-col>
+      </ion-row>
+    </button>
+    <p class="text-center">- o -</p>
+    <button class="primary-button" (click)="loginConEmail()"><p>Iniciar con e-mail</p></button>
+    <br><br>
+    <p class="text-center">¿No tienes una cuenta aún?</p>
+    <p class="text-center p-registro" (click)="crearCuenta()">Regístrate</p>
+  </div>
+</ion-content>

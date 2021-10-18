@@ -1,0 +1,44 @@
+ion-list {
+  margin: 10px;
+  padding: 20px;
+}
+
+ion-content {
+  --background: rgb(245, 245, 245);
+}
+
+.info-text-container {
+  margin-left: 15px;
+}
+
+.img-badge-container {
+  position: relative;
+}
+
+img {
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+.badge {
+  background: rgb(231, 231, 231);
+  padding: 1em;
+  position: absolute;
+  bottom: -5px;
+  right: -10px;
+
+  ion-icon {
+    color: var(--ion-color-primary);
+    font-size: 4vw;
+  }
+
+  span {
+    margin-left: 10px;
+    font-size: 4.5vw;
+    color: var(--ion-color-primary);
+  }
+}
+
+.custom-card-style {
+  border-radius: 5%;  
+}

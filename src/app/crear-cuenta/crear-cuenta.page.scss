@@ -1,0 +1,22 @@
+span{
+    color: var(--ion-color-primary);
+}
+
+.center-buttons {
+    height: 65vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.image-container {
+    width: 100vw;
+    height: 35vh;
+    background-color: var(--ion-color-primary);
+}
+
+.p-registro {
+    color: var(--ion-color-primary);
+    font-weight: bolder;
+    font-size: calc(0.9em + 1vw);
+}
